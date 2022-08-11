@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Nunito+Sans:ital,wght@1,200&display=swap');
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+}
+body{
+    background-color: rgba(11, 14, 2, 0.472);
+}
+.font{
+    font-family: 'Bodoni Moda', serif;
+}
+.font2{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.table{
+    list-style: none;
+    display: flex;
+    /* width: 1000px; */
+    float: right!important;
+    
+}
+.border{
+    border-radius: 30px;
+    border: 1px solid grey;
+}
+.row{
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+.div{
+    clear: both;
+}
+footer{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.IMG{
+    height: 600px;
+    width: 1280px;
+}
+.h1{
+    text-align: center;
+}
+.padd{
+    padding: 0px 300px;
+}
+.pad{
+    margin-top: 100px;
+}
+.mar{
+    padding-bottom: 110px;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.div2{
+    padding-top:250px ;
+    /* text-align: center; */
+    padding-left: 200px;
+}
+.size{
+    font-size: 50px;
+}
+.size1{
+    font-size: 30px;
+}
+.bac{
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top:20px;
+    margin-left: 50px;
+}
+.pink{
+    background-color: rgba(11, 14, 2, 0.472);
+}
+.pad1{
+    padding-top: 100px;
+    padding-top:20px ;
+    padding-bottom: 90px;
+}
+.text{
+    /* padding-top: 80px; */
+    padding-left: 400px;
+    font-size: 30px;
+}
+.text1{
+    /* padding-top: 80px; */
+    font-size: 30px;
+}
+.heading{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+.align{
+    text-align: center;
+}
+.color2{
+    background-color:rgba(11, 14, 2, 0.472) ;
+    padding-bottom: 140px;
+    padding-top: 0px;
+    color: white;
+}
+.pa1{
+    padding-top: 10px;
+}
+@media(min-width:200px) and (max-width:1052px) {
+    #services{
+        display:inline-block;
+    
+    }
+@media(min-width:788px) and (max-width:892px) {
+        #contact{
+            margin-left: -200px;
+        }
+
+}
+@media(min-width:100px) and (max-width:788px) {
+    #contact{
+        margin-left: -300px;
+    }
+
+}
+@media(min-width:100px) and (max-width:448px) {
+    #p{
+        padding-top: 10px;
+    }
+
+}
+@media(min-width:100px) and (max-width:502px) {
+    #div6{
+        margin-left: -120px;
+    }
+
+}
+@media(min-width:100px) and (max-width:846px) {
+    #p1{
+        margin:0px -200px ;
+    }
+
+}
+/* @media(min-width:100px) and (max-width:752px) {
+    #home{
+        margin:0px -200px ;
+    }
+
+} */
